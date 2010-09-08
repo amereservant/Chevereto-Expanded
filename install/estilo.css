@@ -1,0 +1,53 @@
+/* CSS TEMA BASICO - CHEVERETO DEFAULT (GODLIKE.CL)
+ * Por Rodolfo Berrios - http://godlikestudio.com/
+ */
+body, html { background:#FFF url(images/body_bkg_default.png) repeat-x; font-family:Helvetica,Arial,sans-serif; padding:0; margin:0; color:#333 }
+a, input, button{ outline:0 }
+a:hover, button { cursor:pointer }
+abbr{ border-bottom:1px solid #CCC }
+h2{ color:#555; margin-top:40px; font-size:20px; border-bottom:1px dotted #999; padding-bottom:3px }
+h3 { font-size:16px }
+
+/* TOP */
+div#top { padding:2em 1em 1.5em; margin:0 auto; min-height:4em; width:57em }
+div#logo { margin:0 auto; float:left }
+#logo #installation { font-size:24px; display:inline-block; margin:0em 0em 0em 5em; font-weight:bold }
+
+/* FOOT */
+div#foot { width:68em; height:3em; background:url(images/foot_bkg.png) no-repeat; padding:1.5em 20px 1em; margin:2em auto 0; font-size:0.8em; clear:both }
+div.foot-d2 { height:1em; margin:.5em 0 .5em; text-align:center; clear:both; padding:0; font-size:.9em; color:#999 }
+div.foot-d2 a { text-decoration:none; color:#3C84C1 }
+div.foot-d2 a:hover { color:#333; text-decoration:underline }
+
+/* Messages */
+div.msg { padding:5px 10px 5px 30px; margin:10px auto; min-height:22px }
+div.msg span { font-weight:bold }
+div.error { border:1px dotted #940000; background:#FFEBEB url(../images/cancel_16.png) no-repeat 5px 7px; color:#940000 }
+div.warning { border:1px dotted #754E00; background:#FFF8CC url(../images/warning_16.png) no-repeat 5px 7px; color:#754E00 }
+div.success { border:1px dotted #0A7500; background:#E1FFDE url(../images/accepted_16.png) no-repeat 5px 7px; color:#0A7500 }
+
+/* Formulario */
+form{ margin:1.5em 0 3em }
+form input{ background:#F9F9F9; border-top:1px solid #7C7C7C; border-right:1px solid #C3C3C3; border-bottom:1px solid #DDD; border-left:1px solid #C3C3C3 }
+button.install-btn { background:url(images/bkg_btn.png) no-repeat 0 0; width:100px; height:22px; border:0 none; padding-bottom:1px; font-weight:bold; color:#FFF }
+button.install-btn:hover { background-position:0 -23px; color:#444 }
+
+/* inputs */
+div.inputs{ height:2em; /* Esto mantiene la letidad */ }
+div.button{margin:0 auto; background:url(images/bkg_btn_redimensionar_wide.png) no-repeat 0 0; padding-left:10px; height:22px; width:75px}
+div.button a{ display:block; height:22px; width:75px; padding-right:10px; background:url(images/bkg_btn_redimensionar_wide.png) no-repeat right; text-align:center; font-weight:bold; color:#FFF; text-decoration:none }
+
+#admin-install { margin:0px auto; width:550px }
+#first-h2 { margin-top:0px }
+label { font-size:95%; font-weight:normal; text-align:right; display:inline-block; width:130px }
+.smallext { font-size:85%; font-weight:bold }
+.center { text-align:center; width:400px }
+#message { margin:0px 0px 20px; height:25px; min-width:200px; border:1px solid #CCC; padding:5px 15px; font-weight:bold; line-height:25px; vertical-align:middle; text-align:center }
+#compcheck p { text-indent:15px }
+p.description { margin-left:15px }
+#compcheck .param { font-size:14px; font-weight:bold; display:inline-block; width:250px; text-align:right }
+#compcheck .result-img { display:inline-block; margin:0px 10px; height:18px; width:16px }
+#compcheck .result-img img { margin-bottom:-2px }
+#compcheck .passtext, #compcheck .failtext { display:inline-block; padding-right:15px; position:relative; right:0px; font-size:16px; font-weight:bold; color:#090 }
+#compcheck .failtext { color:#F00 }
+#install-btn { width:100px }
